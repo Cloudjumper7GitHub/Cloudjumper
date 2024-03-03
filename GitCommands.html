@@ -4,37 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h3{
+            background-color: rgb(95, 177, 48);
+            }
+        .all-commands{
+            display: flex;border: 1px Solid grey;           
+            color: white;
+            gap:30px;
+        }
+        .all-content-center{
+            justify-content: center;
+            width: 500px;
+            margin-left: 520px;           
+        }
+        .git-commands{
+            background-color:  rgb(53, 4, 32);
+        }
+    </style>
 </head>
 <body>
-    <ul>
-        <li>git status</li>
-        <li>git add .</li>
-        <li>git status</li>
-        <li>git reset --hard</li>
-        <li>git commit -m''</li>
-        <li>git reset --hard (link)</li>
-        <li>git reset --soft (link)</li>
-    </ul>
-    <p>
-        <h1>UserName : Cloudjumper7GitHub</h1>
-        <h1>Repository Name : Cloudjumper</h1>
-       <h3> …or create a new repository on the command line</h3>
-echo "# Cloudjumper" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Cloudjumper7GitHub/Cloudjumper.git
-git push -u origin main
-
-<h3>…or push an existing repository from the command line </h3>
-git remote add origin https://github.com/Cloudjumper7GitHub/Cloudjumper.git
-git branch -M main
-git push -u origin main
-
-<h3>…or import code from another repository </h3>
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-    </p>
-
+    <div class="all-content-center">
+    <div style="background-color: rgb(53, 4, 32);justify-content: center; width: 50%; padding: 10px 20px; margin: 10px;align-content: center;">
+    <h2 style="color: white;">UserName : Cloudjumper7GitHub</h2>
+    <h2 style="color: white;">Repository Name : Cloudjumper</h2>
+    </div>
+</div>
+    <div class="all-commands" style="">
+        <div class="git-commands">
+            <h3 >Git Commands</h3>
+            <ul>
+                <li>git status</li>
+                <li>git add .</li>
+                <li>git status</li>
+                <li>git reset --hard</li>
+                <li>git commit -m''</li>
+                <li>git reset --hard (link)</li>
+                <li>git reset --soft (link)</li>
+            </ul>  
+            <h3>Git Clone Commands</h3>
+            <ul>        
+                    <li>git clone (GitHubPath : You can initialize this repository with code from a Subversion, Mercurial, or TFS project. )</li>
+                    <li>cd Movies</li>
+                    <li>cd Cloudjumper</li>
+                    <li>git pull</li>
+                </ul>
+        </div>
+        <div class="git-commands">
+            <h3> …or create a new repository on the command line</h3>
+            <ul>
+             <li> echo "# Cloudjumper" >> README.md</li>
+             <li>git init</li>
+             <li> git add README.md</li>
+             <li>git commit -m "first commit"</li>
+             <li> git branch -M main</li>
+             <li> git remote add origin https://github.com/Cloudjumper7GitHub/Cloudjumper.git</li>
+             <li> git push -u origin main</li>          
+             </ul>
+             <h3>…or push an existing repository from the command line </h3>
+             <ul>
+                 <li>git remote add origin https://github.com/Cloudjumper7GitHub/Cloudjumper.git</li>
+                 <li>git branch -M main</li>
+                 <li> git push -u origin main</li>
+             </ul>  
+             <h3>…or import code from another repository </h3>
+            <ul>
+             <li>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.</li>       
+            </ul>
+        </div>
+      
+    </div>
+    
 </body>
 </html>
